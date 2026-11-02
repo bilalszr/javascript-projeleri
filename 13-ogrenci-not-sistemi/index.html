@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öğrenci Not Hesaplama Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <div class="logo">🎓</div>
+            <h1>Öğrenci Not Sistemi</h1>
+            <p>Vize (%40) ve Final (%60) notlarınızı girerek ders başarı durumunuzu hesaplayın.</p>
+        </header>
+
+        <section class="card">
+            <h2>Sınav Bilgileri</h2>
+
+            <div class="form-group">
+                <label for="vize">Vize Notu (%40)</label>
+                <input id="vize" type="number" min="0" max="100" placeholder="Örn: 75">
+            </div>
+
+            <div class="form-group">
+                <label for="final">Final Notu (%60)</label>
+                <input id="final" type="number" min="0" max="100" placeholder="Örn: 80">
+            </div>
+
+            <button id="hesapla" type="button">Ortalama Hesapla</button>
+
+            <p id="hata" class="error-msg" role="alert"></p>
+
+            <div id="sonuc" class="result" aria-live="polite" hidden>
+                <p class="result-title">Ders Not Ortalaması</p>
+                <div id="ortalama" class="score">0.00</div>
+                <div id="harfNotu" class="letter-grade">-</div>
+                <h3 id="durum" class="status"></h3>
+                <p id="detay" class="detail"></p>
+            </div>
+        </section>
+
+        <footer>
+            Geliştirici: <strong>Bilal Sezer</strong> · JavaScript Web Projesi
+        </footer>
+    </main>
+</body>
+</html>
