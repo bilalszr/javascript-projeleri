@@ -2,7 +2,7 @@
 // Temel konsol çıktısı ve değişken tanımlama
 
 let bolum = "Bilgisayar Programcılığı";
-let isim = "Bilal Sezer";
+let isim = "Bilal Suzer";
 
 console.log("=== JavaScript'e Giriş ===");
 console.log("Öğrenci Adı : " + isim);
