@@ -2,7 +2,7 @@
 
 Bu depo, **Bilgisayar Programcılığı** eğitimi kapsamında geliştirilen temel JavaScript algoritmaları, veri yapıları ve modern interaktif web uygulamalarını içermektedir.
 
-**Geliştirici:** Bilal Sezer ([@bilalszr](https://github.com/bilalszr))  
+**Geliştirici:** Bilal Suzer ([@bilalszr](https://github.com/bilalszr))  
 **Bölüm:** Bilgisayar Programcılığı  
 
 ---
@@ -26,9 +26,7 @@ Bu depo, **Bilgisayar Programcılığı** eğitimi kapsamında geliştirilen tem
 ---
 
 ### 🌐 Mini Web Uygulamaları (HTML5 / CSS3 / Vanilla JS)
-- **`13-ogrenci-not-sistemi/`**: Vize (%40) ve Final (%60) notuna göre dönem sonu ortalaması, harf notu ve geçme/kalma durumu hesaplayan modern web arayüzü.
-- **`14-yapilacaklar-listesi/`**: Görev ekleme, tamamlama, silme ve `localStorage` kalıcı veri depolama desteğine sahip To-Do List uygulaması.
-- **`15-ogrenci-planlayici/`**: Görev türü (Ders, Sınav, Ödev, Proje) ve son tarih filtreli, özet istatistik paneli sunan öğrenci çalışma planlayıcısı.
+- **`13-not-sistemi/`**: Vize (%40) ve Final (%60) notuna göre dönem sonu ortalaması, harf notu ve geçme/kalma durumu hesaplayan modern web arayüzü.
 
 ---
 
@@ -41,8 +39,8 @@ node 01-merhaba-javascript.js
 node 08-fonksiyonlu-hesap-makinesi.js
 ```
 
-### Web Uygulamalarını Görüntüleme
-Klasör içindeki `index.html` dosyasını herhangi bir web tarayıcısında (Chrome, Edge vb.) çift tıklayarak veya VS Code **Live Server** eklentisiyle açabilirsiniz.
+### Web Uygulamasını Görüntüleme
+Klasör içindeki `13-not-sistemi/index.html` dosyasını herhangi bir web tarayıcısında (Chrome, Edge vb.) çift tıklayarak veya VS Code **Live Server** eklentisiyle açabilirsiniz.
 
 ---
-⭐ Bilal Sezer tarafından eğitim ve pratik amacıyla hazırlanmıştır.
+⭐ Bilal Suzer tarafından eğitim ve pratik amacıyla hazırlanmıştır.
